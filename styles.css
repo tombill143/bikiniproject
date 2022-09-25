@@ -92,3 +92,18 @@ nav .menu {
   font-size: 24px;
   font-weight: 300;
 }
+
+.bikinis {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 15%;
+  font-weight: 1000;
+}
