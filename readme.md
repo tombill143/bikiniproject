@@ -7,3 +7,7 @@
 # Good luck team :)
 
 # https://www.youtube.com/watch?v=9orR1EBb7l0&list=PLCx1FpZ4Dtb1-gNgyuhkSphg2aHriN6B8&index=8
+
+# Ok so I although I managed to make a good start on the womens page, I need to code properly the row of bikinis after the main header. This is work I expect to carry on doing
+
+# on the morning of Monday 26th September
