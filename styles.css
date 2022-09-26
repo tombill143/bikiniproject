@@ -104,6 +104,10 @@ nav .menu {
   padding: 0 20px;
   text-align: center;
   font-size: 30px;
-  padding-top: 35%;
+  padding-top: 40%;
   font-weight: 1000;
+}
+
+.shipping-title {
+  padding-bottom: 150px;
 }
