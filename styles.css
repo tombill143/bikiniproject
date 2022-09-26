@@ -229,3 +229,33 @@ button {
   padding-top: 15%;
   font-weight: 100;
 }
+
+.bras {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: left;
+  font-size: 20px;
+  padding-top: 15%;
+  font-weight: 100;
+}
+
+.model {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: right;
+  font-size: 30px;
+  padding-top: 35%;
+  font-weight: 1000;
+}
