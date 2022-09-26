@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
 
+a {
+  text-decoration: none;
+}
+
 body {
   background-image: url("./image/women.svg");
   background-repeat: no-repeat;
@@ -23,7 +27,6 @@ body {
 }
 
 nav {
-  position: fixed;
   width: 100%;
   padding: 10px 0;
   z-index: 12;
@@ -93,7 +96,22 @@ nav .menu {
   font-weight: 300;
 }
 
-.bikinis {
+.bikini1 {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: left;
+  font-size: 30px;
+  padding-top: 35%;
+  font-weight: 1000;
+}
+
+.bikini2 {
   text-decoration: none;
   color: black;
   position: absolute;
@@ -106,4 +124,108 @@ nav .menu {
   font-size: 30px;
   padding-top: 35%;
   font-weight: 1000;
+}
+
+.bikini3 {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: right;
+  font-size: 30px;
+  padding-top: 35%;
+  font-weight: 1000;
+}
+
+.bikinicontent:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.shipping {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 15%;
+  font-weight: 1000;
+}
+
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 26px;
+  width: 500px;
+  font-weight: bold;
+}
+
+.customise {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 210%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20%;
+  font-weight: 1000;
+}
+
+.choose {
+  list-style: none;
+  text-decoration: none;
+  max-width: 55px;
+  margin-top: 10px;
+  margin: 10px 1;
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  border: solid black;
+  border-radius: 100%;
+}
+
+.choose a:hover {
+  background: black;
+  color: white;
+  border-radius: 800px;
+  display: inline block;
+  width: 5000px;
+}
+
+.favouriteelements {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 230%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: left;
+  font-size: 20px;
+  padding-top: 15%;
+  font-weight: 100;
 }
