@@ -7,7 +7,7 @@ a {
 }
 
 body {
-  background-image: url("./image/women.svg");
+  background-image: url("./image/women2.svg");
   background-repeat: no-repeat;
   top: 0%;
   left: 0%;
@@ -280,17 +280,60 @@ button {
 .rentals {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 0.1cm;
+  gap: 0.01cm;
   text-decoration: none;
   color: black;
   position: absolute;
-  top: 420%;
+  top: 400%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  padding: 0 20px;
-  text-align: left;
+  text-align: center;
   font-size: 30px;
-  padding-top: 35%;
+  padding-top: 10%;
+  font-weight: 1000;
+  margin-right: 1cm;
+}
+
+.rentaltitle {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 1000;
+}
+
+.rentalbutton {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 26px;
+  width: 300px;
+  font-weight: bold;
+  margin-bottom: 2cm;
+}
+
+.subscriptions {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 480%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
   font-weight: 1000;
 }
