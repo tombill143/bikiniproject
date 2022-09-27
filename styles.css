@@ -3,6 +3,7 @@
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 body {
@@ -274,4 +275,22 @@ button {
   border-radius: 26px;
   width: 300px;
   font-weight: bold;
+}
+
+.rentals {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.1cm;
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 420%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: left;
+  font-size: 30px;
+  padding-top: 35%;
+  font-weight: 1000;
 }
