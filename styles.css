@@ -111,3 +111,412 @@ nav .menu {
 .shipping-title {
   padding-bottom: 150px;
 }
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-image: url("./image/women2.svg");
+  background-repeat: no-repeat;
+  top: 0%;
+  left: 0%;
+  max-height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+::selection {
+  color: white;
+  background: black;
+}
+
+nav {
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu {
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.header-logo {
+  top: 0rem;
+  height: 100px;
+  padding-left: 100%;
+}
+
+.header-logo > img {
+  height: 100px;
+}
+
+.menu ul {
+  display: inline-flex;
+}
+.menu ul li {
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child {
+  margin-left: 0px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover {
+  background: black;
+  color: white;
+}
+
+.center {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title {
+  color: white;
+  font-family: "Italiana", serif;
+  font-size: 200px;
+  font-weight: 600;
+}
+.center .sub_title {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.bikinis {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-decoration: none;
+  color: black;
+}
+
+.bikinicontent:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.shipping {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 125%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 15%;
+  font-weight: 1000;
+}
+
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 26px;
+  width: 500px;
+  font-weight: bold;
+}
+
+.customise {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 160%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20%;
+  font-weight: 1000;
+}
+
+.choose {
+  list-style: none;
+  text-decoration: none;
+  max-width: 55px;
+
+  margin: 10px 1;
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  border: solid black;
+  border-radius: 100%;
+}
+
+.choose a:hover {
+  background: black;
+  color: white;
+  border-radius: 800px;
+  display: inline block;
+  width: 5000px;
+}
+
+.favouriteelements {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 180%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: left;
+  font-size: 20px;
+  padding-top: 15%;
+  font-weight: 100;
+}
+
+.bras {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: left;
+  font-size: 20px;
+  padding-top: 15%;
+  font-weight: 100;
+}
+
+.model {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: right;
+  font-size: 30px;
+  padding-top: 35%;
+  font-weight: 1000;
+}
+
+.submit {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 26px;
+  width: 300px;
+  font-weight: bold;
+}
+
+.rentals {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.02cm;
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 300%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10%;
+  font-weight: 1000;
+  margin-right: 1cm;
+}
+
+.rentaltitle {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 1000;
+}
+
+.rentalbutton {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 26px;
+  width: 300px;
+  font-weight: bold;
+  margin-bottom: 2cm;
+}
+
+.subscriptions {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 390%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 1000;
+  gap: 5cm;
+}
+
+.boxwrapper {
+  height: 95vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.box1 {
+  padding: 10px;
+  border: solid 1px black;
+  flex-direction: column;
+}
+
+.box2 {
+  padding: 10px;
+  border: solid 1px black;
+}
+
+.box3 {
+  padding: 10px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  border: solid 1px black;
+}
+
+.column1 {
+  padding: 10px;
+  height: 700px; /* Should be removed. Only for demonstration */
+  border: solid black;
+}
+
+.column2 {
+  padding: 10px;
+  height: 700px; /* Should be removed. Only for demonstration */
+  border: solid black;
+  background-color: #ddc3e2;
+  color: white;
+}
+
+.div.column2 img {
+  opacity: 0.5;
+}
+
+.column3 {
+  padding: 10px;
+  height: 700px; /* Should be removed. Only for demonstration */
+  border: solid black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1cm;
+  padding: 1cm;
+}
+
+.sub {
+  font-size: 30px;
+}
+
+hr {
+  height: 1px;
+  background-color: black;
+  border: none;
+  margin-bottom: 0.5cm;
+}
+
+.description {
+  font-size: 15px;
+}
+
+.threeleft {
+  text-decoration: none;
+  background-color: #3e3a3a;
+  color: white;
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12%;
+  height: 5%;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 35px;
+}
+@media only screen and (max-width: 900px) {
+  .row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+}
